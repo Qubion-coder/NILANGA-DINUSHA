@@ -68,7 +68,7 @@ export default function FooterSection() {
         <div className="flex flex-col items-center justify-between gap-4 px-4 text-center text-xs font-light tracking-[0.1em] text-[#C9A227] md:flex-row md:text-left">
           <div className="space-y-2">
             <p className="!text-[#C9A227]">
-              &copy; {new Date().getFullYear()} NILANGA & DINUSHA. All rights reserved.
+              &copy; {new Date().getFullYear()} NILAGA & DINUSHA. All rights reserved.
             </p>
             <p className="!text-[#C9A227]">
               Design and created by <span className="!text-[#C9A227]">InviteMint</span> | Connect WhatsApp: <a href="https://wa.me/94707819074" target="_blank" rel="noopener noreferrer" className="!text-[#C9A227] hover:underline">+94 70 781 9074</a>

@@ -62,7 +62,7 @@ export default function CeremonyDetails() {
 
               <Image
                 src="/images/IMG_2529.JPG.jpeg"
-                alt="Nilanga and Dinusha"
+                alt="Nilaga and Dinusha"
                 fill
                 className="object-cover"
                 priority
@@ -77,7 +77,7 @@ export default function CeremonyDetails() {
               <div className="relative z-10 flex h-full flex-col items-center justify-center px-8 text-center text-[#f5e6c8]">
 
                 <h3 className="mt-5 font-serif text-4xl text-[#fff7de] drop-shadow-[0_4px_16px_rgba(0,0,0,0.75)]">
-                  NILANGA <span className="text-[#f0d18b]">&amp;</span> DINUSHA
+                  NILAGA <span className="text-[#f0d18b]">&amp;</span> DINUSHA
                 </h3>
                 <p className="mt-4 text-sm leading-7 text-[#f5e6c8]/80">
                   Together with our families, we invite you to share in the joy, love & happiness of our special day.

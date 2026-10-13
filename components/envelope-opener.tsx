@@ -396,7 +396,7 @@ export function EnvelopeOpener({ onEnvelopeOpen }: EnvelopeOpenerProps) {
 
                       <div className="py-4">
                         <h2 className="font-serif text-4xl font-light tracking-[0.08em] text-[#6d1424]">
-                          NILANGA
+                          NILAGA
                         </h2>
                         <p className="my-3 font-serif text-2xl italic text-[#b08a1f]">&</p>
                         <h2 className="font-serif text-4xl font-light tracking-[0.08em] text-[#6d1424]">

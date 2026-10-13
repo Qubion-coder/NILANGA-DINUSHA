@@ -15,9 +15,35 @@ const inter = Inter({
   variable: '--font-sans'
 })
 
+const siteUrl = 'https://nilaga-dinusha-weddinginvitation.vercel.app'
+const siteTitle = 'NILAGA & DINUSHA Wedding'
+const siteDescription = 'Join us as we celebrate the wedding of NILAGA and DINUSHA on November 28, 2026.'
+const ogImage = {
+  url: '/og-image.jpg',
+  width: 1200,
+  height: 630,
+  type: 'image/jpeg',
+  alt: 'Nilaga & Dinusha Wedding Invitation',
+}
+
 export const metadata: Metadata = {
-  title: 'NILANGA & DINUSHA Wedding',
-  description: 'Join us as we celebrate the wedding of NILANGA and DINUSHA on November 28, 2026.',
+  metadataBase: new URL(siteUrl),
+  title: siteTitle,
+  description: siteDescription,
+  openGraph: {
+    type: 'website',
+    url: siteUrl,
+    siteName: siteTitle,
+    title: siteTitle,
+    description: siteDescription,
+    images: [ogImage],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: siteTitle,
+    description: siteDescription,
+    images: [ogImage.url],
+  },
   generator: 'v0.app',
   icons: {
     icon: '/wedding-icon.png',

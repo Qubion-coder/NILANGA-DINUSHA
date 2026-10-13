@@ -50,7 +50,7 @@ export default function HeroSection() {
           transition={{ duration: 1.1, delay: 0.1 }}
           className="font-serif text-4xl font-light leading-tight tracking-[0.08em] text-[#fff7e8] sm:text-6xl md:text-7xl lg:text-8xl"
         >
-          NILANGA <span className="text-[#f0daaa]">&amp;</span> DINUSHA
+          NILAGA <span className="text-[#f0daaa]">&amp;</span> DINUSHA
         </motion.h1>
 
         <motion.p
